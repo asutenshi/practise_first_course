@@ -37,7 +37,7 @@ h3_stats["polygon_str"] = h3_stats["polygon"].apply(
 )
 
 # === 5. Загрузка и обработка достопримечательностей ===
-df_landmarks = pd.read_csv("project/attractions/landmarks.csv")
+df_landmarks = pd.read_csv("landmarks.csv")
 
 # Фильтрация ненужных типов
 types = [
